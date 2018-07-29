@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.imooc.metext2.main" target="1.8" />
+      <module name="com.imooc.metext2.test" target="1.8" />
+      <module name="financial.api.main" target="1.8" />
+      <module name="financial.api.test" target="1.8" />
+      <module name="financial.entity.main" target="1.8" />
+      <module name="financial.entity.test" target="1.8" />
+      <module name="financial.manager.main" target="1.8" />
+      <module name="financial.manager.test" target="1.8" />
+      <module name="financial.metest1.main" target="1.8" />
+      <module name="financial.metest1.test" target="1.8" />
+      <module name="financial.metext2.main" target="1.8" />
+      <module name="financial.metext2.test" target="1.8" />
+      <module name="financial.quartz.main" target="1.8" />
+      <module name="financial.quartz.test" target="1.8" />
+      <module name="financial.seller.main" target="1.8" />
+      <module name="financial.seller.test" target="1.8" />
+      <module name="financial.swagger.main" target="1.8" />
+      <module name="financial.swagger.test" target="1.8" />
+      <module name="financial.util.main" target="1.8" />
+      <module name="financial.util.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
