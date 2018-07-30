@@ -30,9 +30,11 @@ public class ProductStatusManager {
 
     }
 
+    /**
     @PostConstruct
     public void testmq(){
         changeStatus("006",ProductStatus.IN_SELL);
     }
+    */
 
 }
