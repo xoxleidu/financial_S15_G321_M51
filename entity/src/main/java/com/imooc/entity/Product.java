@@ -5,6 +5,7 @@ import io.swagger.annotations.ApiModelProperty;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -15,7 +16,7 @@ import java.util.Date;
 
 @Entity
 //@ApiModel(value = "ddd",description = "产品模型")
-public class Product {
+public class Product implements Serializable {
 
     @Id
     private String id;

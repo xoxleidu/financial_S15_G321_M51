@@ -19,7 +19,11 @@ ext {
                     "io.springfox:springfox-swagger-ui:2.7.0"
             ],
             hazelcast   :   [
-                    "com.hazelcast:hazelcast:3.10.3"
+                    "com.hazelcast:hazelcast:3.10.3",
+                    "com.hazelcast:hazelcast-spring:3.10.3"
+            ],
+            activemq:[
+                    "org.springframework.boot:spring-boot-starter-activemq:${versions.springBootVersion}",
             ],
             test        :   [
                     "org.springframework.boot:spring-boot-starter-test:${versions.springBootVersion}"
