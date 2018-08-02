@@ -57,7 +57,6 @@ public class ProductCache {
         Map map = hazelcastInstance.getMap(CACHE_NAME);
         List<Product> list = null;
 
-        //有遐思，只适合一个数据的改变
         if (map.size() > 0){
             list = new ArrayList<>();
             list.addAll(map.values());
